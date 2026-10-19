@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite Database & generated data files
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+*.db
+*.sqlite
+*.sqlite3
+!data/.gitkeep
+
+# Environments & virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Exported user artifacts
+exports/
+*.pdf
+*.xlsx
+*.csv
+
+# Logs
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
